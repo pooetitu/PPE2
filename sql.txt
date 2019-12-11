@@ -1,0 +1,2 @@
+drop table compte;
+create table compte(id serial primary key,pseudo varchar(20)unique,mdp varchar(16));
